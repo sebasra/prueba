@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APLICACION DE PRUEBA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="jquery/themes/tema.css" />
+        <link rel="stylesheet" href="jquery/themes/jquery.mobile.icons.min.css" />
+	    <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.css" />
+	    <script src="jquery/jquery-1.11.1.min.js"></script>
+	    <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	    
+    </head>
+    <body>
+        <div data-role="page" id="home" data-theme="b">
+        <header data-role="header" data-position="fixed"><h1>TITULO DE APLICACION</h1></header>
+        <article class="imagen"></article>
+        <article data-role="content">
+            <p>
+                <a href="dialog.html" class="ui-btn ui-btn-inline ui-icon-calendar ui-btn-icon-left" data-theme="b">Ver modal</a>
+                <a href="#pagina1" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left" data-theme="b">ir Pagina dos</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left" data-theme="b">Tres</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left">Left</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-right">Right</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-top">Top</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-bottom">Bottom</a>
+                <a href="#" class="ui-btn ui-btn-inline ui-icon-myicon ui-btn-icon-left">Calavera</a>
+            </p>
+        </article>
+        <article data-role="content">
+            <div class="gatoCentro">
+                <img src="img/gato_movil.jpg"></img>
+            </div>
+        </article>
+        <footer data-role="footer" data-position="fixed"><h2>Este es el fin</h2></footer>
+        </div>
+        
+        <div data-role="page" id="pagina1">
+            <header data-role="header" data-position="fixed"><h1>TITULO DE APLICACION</h1></header>
+            <article data-role="content">
+                <ul data-role="listview">
+                    <li data-icon="gear"><a href="#home">Inicio</a></li>
+                    <li data-icon="gear"><a href="#pagina2">Cuatro</a></li>
+                    <li data-icon="gear"><a href="#">Cinco</a></li>
+                    <li data-icon="gear"><a href="#">Seis</a></li>
+                </ul>
+            </article>
+            <footer data-role="footer" data-position="fixed"><h2>Este es el fin</h2></footer>
+        </div>
+        
+        <div data-role="page" id="pagina2">
+            <header data-role="header" data-position="fixed"><h1>TITULO DE APLICACION</h1></header>
+            <article data-role="content">
+                <ul data-role="listview">
+                    <li data-icon="gear"><a href="#home">Inicio</a></li>
+                    <li data-icon="gear"><a href="#">Siete</a></li>
+                    <li data-icon="gear"><a href="#">Ocho</a></li>
+                    <li data-icon="gear"><a href="#pagina1">volver</a></li>
+                </ul>
+            </article>
+            <footer data-role="footer" data-position="fixed"><h2>Este es el fin</h2></footer>
+        </div>
+     
+    </body>
+</html>
